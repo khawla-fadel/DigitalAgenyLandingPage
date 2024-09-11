@@ -49,3 +49,129 @@ body._lock {
     color: #1F242D;
 }
 
+.heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+}
+
+.subheading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #272D38;
+}
+
+/* header */
+.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 1076px;
+    margin: 0 auto;
+ }
+ .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+.header__logo {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;    
+    color: #272D38;
+    cursor: pointer;
+}
+.header__nav-list {
+    display: flex;
+}
+.header__nav-item:not(:last-child) {
+    margin-right: 44px;
+}
+.header__nav-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: #272D38;
+    transition: all;
+    transition: color .3s ease;
+}
+
+.header__nav-link:hover{
+    color: #8EADD5;
+}
+
+ /* hero  */
+ .hero {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+    padding-bottom: 80px;
+ }
+ .hero__block-text {
+    max-width: 540px;
+}
+.hero__heading {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+    padding-top: 42px;
+    margin-bottom: 24px;
+}
+.hero__subheading {
+    max-width: 525px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-bottom: 38px;
+}
+.hero__link {
+    display: inline-block;
+}
+
+.hero__block-img {
+    max-width: 450px;
+}
+
+/* companies  */
+.companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 68px;
+}
+.companies__heading {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #667085;
+    margin-bottom: 16px;
+}
+.companies__items {
+    display: flex;
+    justify-content: center;
+    max-width: 915px;
+    width: 100%;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    padding: 17px 24px;
+}
+.companies__item:not(:last-child) {
+    margin-right: 115px;
+}
+.companies__item-logo {
+    max-height: 48px;
+    height: 100%;
+}
