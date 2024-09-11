@@ -175,3 +175,30 @@ body._lock {
     max-height: 48px;
     height: 100%;
 }
+/* production  */
+.production {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+.production__img {
+    max-width: 450px;
+    width: 100%;
+}
+.production__block-desc {
+    max-width: 440px;
+}
+.production__heading {
+    margin-top: 98px;
+    margin-bottom: 32px;
+}
+.production__subheading {
+    max-width: 392px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-bottom: 38px;
+}
