@@ -16,6 +16,7 @@ This reopsitory is a simple Digital Ageny Landing Page design using HTML and CSS
 - footer section
 
 ## :camera: Preview
+![cap](https://github.com/user-attachments/assets/e99d3b38-9ceb-4beb-90bb-f42792491e12)
 
 ## :link: Resource
 
